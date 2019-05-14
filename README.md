@@ -46,7 +46,11 @@ Once the configuration file has been updated, execute the following command to c
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 aws cloudformation create-stack --stack-name automated_ui_testing --template-body file://automated-ui-testing.yaml --parameters file://automated-ui-testing-params.json --capabilities CAPABILITY_NAMED_IAM
+=======
+aws cloudformation create-stack --stack-name automated-ui-testing --template-body file://automated-ui-testing.yaml --parameters file://automated-ui-testing-params.json --capabilities CAPABILITY_NAMED_IAM
+>>>>>>> 76f1c32... fix: yml to yaml
 =======
 aws cloudformation create-stack --stack-name automated-ui-testing --template-body file://automated-ui-testing.yaml --parameters file://automated-ui-testing-params.json --capabilities CAPABILITY_NAMED_IAM
 >>>>>>> 76f1c32... fix: yml to yaml
